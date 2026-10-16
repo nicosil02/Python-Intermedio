@@ -21,6 +21,12 @@ CARPETA = Path(__file__).parent
 NOMBRES = {"politica": "Política", "economia": "Economía",
            "deportes": "Deportes", "ciencia_tecnologia": "Ciencia y tecnología"}
 
+# Los pesos (más de 500 MB) no están en GitHub. Si no están en modelo/, como en
+# Streamlit Cloud, se descargan del Hugging Face Hub.
+MODELO_LOCAL = CARPETA / "modelo"
+MODELO = (str(MODELO_LOCAL) if (MODELO_LOCAL / "model.safetensors").exists()
+          else "nicosil02/distilbert-titulares-elcomercio")
+
 # F1 macro de DistilBERT en el test reservado, salida de 02_clasificacion.ipynb
 F1_TEST = 0.868
 
@@ -36,7 +42,7 @@ def cargar():
 # @st.cache_resource carga el modelo una sola vez y no en cada clic
 @st.cache_resource
 def cargar_clasificador():
-    return pipeline("text-classification", model=str(CARPETA / "modelo"), top_k=None)
+    return pipeline("text-classification", model=MODELO, top_k=None)
 
 
 noticias, auditoria = cargar()

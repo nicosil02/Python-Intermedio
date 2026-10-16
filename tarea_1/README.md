@@ -50,7 +50,7 @@ python -m venv .venv
 pip install -r requirements.txt
 ```
 
-Los pesos del modelo, `modelo/model.safetensors`, pesan más de 500 MB y no están en el repositorio. Para generarlos hay que ejecutar `02_clasificacion.ipynb`, que entrena DistilBERT y lo guarda en `modelo/`. Luego se abre el dashboard.
+Los pesos del modelo, `modelo/model.safetensors`, pesan más de 500 MB y no están en el repositorio. Están publicados en Hugging Face como [`nicosil02/distilbert-titulares-elcomercio`](https://huggingface.co/nicosil02/distilbert-titulares-elcomercio), y la app los descarga de ahí la primera vez si no los encuentra en `modelo/`. Ejecutar `02_clasificacion.ipynb` los vuelve a generar en local.
 
 ```bash
 streamlit run app.py
