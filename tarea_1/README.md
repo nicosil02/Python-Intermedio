@@ -6,9 +6,7 @@
 
 ## Medio y fechas de extracción
 
-- **Medio.** El Comercio (opción B), desde los sitemaps de sus secciones de política, economía, deporte-total y tecnología.
-- **Descarga.** 14 de octubre de 2026.
-- **Noticias.** Publicadas entre el 2 y el 14 de octubre de 2026. De 400 notas descargadas quedaron 375, tras descartar 16 columnas de opinión y 9 notas de secciones fuera de las 4 categorías.
+Se usó El Comercio (opción B), a partir de los sitemaps de sus secciones de política, economía, deporte-total y tecnología. La descarga se hizo el 14 de octubre de 2026 y las noticias se publicaron entre el 2 y el 14 de octubre. De 400 notas descargadas quedaron 375, tras descartar 16 columnas de opinión y 9 notas de secciones fuera de las 4 categorías.
 
 | Archivo | Contenido |
 | :--- | :--- |
@@ -32,13 +30,13 @@ El zero-shot obtiene 0,708 en la muestra de 40 titulares que pide el enunciado y
 
 ## Hallazgos
 
-1. **La supervisión débil basta para entrenar un clasificador.** Sin etiquetar nada a mano, el LLM coincide en un 91,7% con la sección del diario y acierta en 19 de los 20 casos auditados. DistilBERT entrenado con esas etiquetas llega a un F1 macro de 0,868 en test, muy por encima del zero-shot, y clasifica un titular en unos 4 milisegundos frente a los 44 del LLM.
-2. **Deportes es la categoría más fácil y economía la más difícil.** Deportes llega a un F1 de 1,000 porque sus titulares nombran clubes, jugadores y torneos que no aparecen en otras secciones. Economía queda en 0,696 porque es transversal y comparte vocabulario con las demás. Las noticias sobre El Niño se confunden con ciencia y los nombramientos en entidades del Estado se confunden con política.
+1. La supervisión débil basta para entrenar un clasificador. Sin etiquetar nada a mano, el LLM coincide en un 91,7% con la sección del diario y acierta en 19 de los 20 casos auditados. DistilBERT entrenado con esas etiquetas llega a un F1 macro de 0,868 en test, muy por encima del zero-shot, y clasifica un titular en unos 4 milisegundos frente a los 44 del LLM.
+2. Deportes es la categoría más fácil y economía la más difícil. Deportes llega a un F1 de 1,000 porque sus titulares nombran clubes, jugadores y torneos que no aparecen en otras secciones. Economía queda en 0,696 porque es transversal y comparte vocabulario con las demás. Las noticias sobre El Niño se confunden con ciencia y los nombramientos en entidades del Estado se confunden con política.
 
 ## Limitaciones
 
-1. **El test es pequeño.** Con 57 titulares, cada error mueve el F1 en casi 2 puntos. En ejecuciones de prueba el F1 macro de test varió entre 0,87 y 0,91 por pequeñas diferencias numéricas de la GPU.
-2. **El modelo hereda los errores del LLM y se limita a un medio y dos semanas.** Dos de los siete errores en test venían de etiquetas equivocadas del LLM. Además, todas las noticias son de El Comercio y de la coyuntura de octubre de 2026, así que el modelo puede rendir peor con otro diario u otros temas del momento.
+1. El test es pequeño. Con 57 titulares, cada error mueve el F1 en casi 2 puntos. En ejecuciones de prueba el F1 macro de test varió entre 0,87 y 0,91 por pequeñas diferencias numéricas de la GPU.
+2. El modelo hereda los errores del LLM y se limita a un medio y dos semanas. Dos de los siete errores en test venían de etiquetas equivocadas del LLM. Además, todas las noticias son de El Comercio y de la coyuntura de octubre de 2026, así que el modelo puede rendir peor con otro diario u otros temas del momento.
 
 ## Cómo ejecutar en local
 

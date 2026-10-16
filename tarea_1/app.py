@@ -63,7 +63,7 @@ filtrado = noticias[
 ]
 
 # ------------------------------------------------------------------------ titulo
-st.title("🗞️ ¿Se pueden convertir titulares peruanos en un clasificador de noticias?")
+st.title("¿Se pueden convertir titulares peruanos en un clasificador de noticias?")
 st.markdown(
     f"Se recolectaron {len(noticias)} noticias de **El Comercio** publicadas entre el "
     f"{noticias['fecha'].min()} y el {noticias['fecha'].max()}, en cuatro categorías. "
