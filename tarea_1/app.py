@@ -100,7 +100,7 @@ if st.button("Clasificar", type="primary"):
             categoria=lambda t: t["label"].map(NOMBRES)
         )
         mejor = probabilidades.iloc[0]
-        st.success(f"Categoría predicha: **{mejor['categoria']}** · "
+        st.success(f"Categoría predicha: **{mejor['categoria']}**, con "
                    f"probabilidad {mejor['score']:.1%}")
 
         fig = px.bar(

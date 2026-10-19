@@ -24,7 +24,7 @@ Se usó El Comercio (opción B), a partir de los sitemaps de sus secciones de po
 | LLM Qwen2.5-1.5B-Instruct, titular y bajada | 0,927 |
 | DistilBERT multilingüe ajustado, solo titular | **0,868** |
 
-F1 Macro: 0.868 | Zero-shot: 0.708 | Acuerdo LLM-Humano: 19/20
+En el formato de entrega, el F1 macro es de 0,868, el zero-shot de 0,708 y el acuerdo LLM-humano de 19/20.
 
 El zero-shot obtiene 0,708 en la muestra de 40 titulares que pide el enunciado y 0,691 en los 57 titulares de test.
 
