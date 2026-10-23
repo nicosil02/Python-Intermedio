@@ -68,6 +68,7 @@ RESERVAS = {
     "doc_r02": ("impreso", "4000004161-0016 - Carta de Carlos J. Bachmann. 1914 julio 4, Maldonado; para Ricardo Palma, Lima.pdf", 2, None),
     "doc_r03": ("foto", "Carta de Felipe Santiago Salaverry a la seva esposa abans de la seva mort a Arequipa.jpg", None, None),
     "doc_r04": ("foto", "Santo Domingo - Cusco - Peru - letrero.jpg", None, None),
+    "doc_r05": ("manuscrito", "Miguel Grau - Brev.jpg", None, None),
 }
 
 # Entrevistas y testimonios en español peruano
