@@ -1,0 +1,12 @@
+# Corpus original y salidas pesadas (se recuperan con datos/fuentes.csv)
+datos/raw/
+# Pesos de modelos
+modelos/*.safetensors
+modelos/*.bin
+modelos/checkpoint-*/
+.venv/
+.ipynb_checkpoints/
+.env
+
+# nombres reales para seudonimizar: no se publican
+modelos/seudonimos.json
