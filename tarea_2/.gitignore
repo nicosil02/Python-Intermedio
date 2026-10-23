@@ -7,3 +7,6 @@ modelos/checkpoint-*/
 .venv/
 .ipynb_checkpoints/
 .env
+
+# nombres reales para seudonimizar: no se publican
+modelos/seudonimos.json
