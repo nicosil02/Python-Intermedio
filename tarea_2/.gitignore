@@ -10,3 +10,6 @@ modelos/checkpoint-*/
 
 # nombres reales para seudonimizar: no se publican
 modelos/seudonimos.json
+
+# herramienta local de transcripción (apunta a datos/raw, que no se sube)
+referencias.html
