@@ -1,0 +1,11 @@
+{
+ "paddleocr": "3.7.0",
+ "paddlepaddle": "3.2.2",
+ "tesseract": "tesseract 5.3.4",
+ "faster_whisper": "1.2.1",
+ "transformers": "5.20.2",
+ "torch": "2.11.0+cu130",
+ "gpu": "Tesla T4",
+ "cpu_nucleos": 2,
+ "python": "3.13.16"
+}
