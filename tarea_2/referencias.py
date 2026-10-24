@@ -26,7 +26,7 @@ MUESTRA_DOCS = {
     "doc_018": "manuscrito · carta de Bachmann a Palma, 1912 (cursiva)",
     "doc_021": "manuscrito · carta de Vallejo a Eguren, 1917",
     "doc_025": "manuscrito · Libro de Bautismos de Lampa, 1871 (portada)",
-    "doc_022": "manuscrito · carta a un hermano, 2010 (letra moderna)",
+    "doc_022": "manuscrito · carta a un hermano, 1860 (letra rápida)",
 }
 MUESTRA_CLIPS = {
     "clip_001": "calle, Av. Riva Agüero (El Agustino), tráfico de fondo",
