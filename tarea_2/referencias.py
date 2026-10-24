@@ -13,7 +13,9 @@ import pandas as pd
 
 RAIZ = Path(__file__).resolve().parent
 
-# Elegidos antes de calcular cualquier métrica: los 3 tipos de documento y una fuente distinta por clip
+# Elegidos antes de calcular cualquier métrica: los 3 tipos de documento y una fuente distinta por clip.
+# doc_r05 (carta de Miguel Grau, 1879) se cambió por doc_022 porque la persona que transcribe no pudo leerla:
+# el cambio no depende de ningún resultado de los modelos.
 MUESTRA_DOCS = {
     "doc_002": "impreso · Constitución de 1828, portada",
     "doc_003": "impreso · Constitución de 1856, encabezado",
@@ -24,7 +26,7 @@ MUESTRA_DOCS = {
     "doc_018": "manuscrito · carta de Bachmann a Palma, 1912 (cursiva)",
     "doc_021": "manuscrito · carta de Vallejo a Eguren, 1917",
     "doc_025": "manuscrito · Libro de Bautismos de Lampa, 1871 (portada)",
-    "doc_r05": "manuscrito · carta de Miguel Grau",
+    "doc_022": "manuscrito · carta a un hermano, 2010 (letra moderna)",
 }
 MUESTRA_CLIPS = {
     "clip_001": "calle, Av. Riva Agüero (El Agustino), tráfico de fondo",
