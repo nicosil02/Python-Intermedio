@@ -1,0 +1,20 @@
+{
+ "campos": {
+  "modalidad": "audio",
+  "tema": "Reflexiones sobre peruanidad e identidad",
+  "resumen": "Una ciudadana reflexiona sobre el significado del Perú, su identidad ligada a la selva central y los cambios positivos y negativos del país, señalando problemas como la corrupción y la discriminación. Además, exhorta a las nuevas generaciones a formarse con valores y a luchar por el respeto irrestricto de los derechos humanos y de las mujeres.",
+  "emisor": null,
+  "destinatario": null,
+  "fecha": null,
+  "lugar": null,
+  "monto": null,
+  "numero_hablantes": 2,
+  "citas_clave": [
+   "Amo mi territorio porque de ahí vivo, de ahí como. Tengo mi medicina, mis plantas ancestrales.",
+   "Bueno, los aspectos negativos es que la corrupción y dentro de los gobiernos siempre ha habido, este, demasiada corrupción y no hay políticas entre las mujeres indígenas.",
+   "Por ejemplo, nosotros como mujeres luchadoras que debemos dejar generaciones que conozcan sus derechos, que se hagan respetar."
+  ]
+ },
+ "modelo_llm": "gemini-3.8-flash",
+ "fecha": "2026-10-24"
+}

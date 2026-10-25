@@ -1,0 +1,16 @@
+{
+ "campos": {
+  "modalidad": "documento",
+  "tema": "Homenaje a Antonio Miró Quesada",
+  "resumen": "La ciudad de Lima rinde homenaje en su recuerdo a don Antonio Miró Quesada y su esposa María Laos de Miró Quesada, conmemorando el suceso ocurrido el 15 de mayo de 1935.",
+  "emisor": "LA CIUDAD DE LIMA",
+  "destinatario": "Don ANTONIO MIRO QUESADA Y SU ESPOSA MARIA LAOS DE MIRO QUESADA",
+  "fecha": "MAYO 15 DE 195O",
+  "lugar": "LIMA",
+  "monto": null,
+  "numero_hablantes": null,
+  "citas_clave": null
+ },
+ "modelo_llm": "gemini-3.8-flash",
+ "fecha": "2026-10-24"
+}

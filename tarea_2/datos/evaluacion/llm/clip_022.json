@@ -1,0 +1,19 @@
+{
+ "campos": {
+  "modalidad": "audio",
+  "tema": "Cines de barrio en Breña",
+  "resumen": "El hablante rememora su infancia visitando diversos cines tradicionales en Breña y Lima junto a su familia. Asimismo, detalla las películas que vio y el destino posterior de aquellos locales.",
+  "emisor": null,
+  "destinatario": null,
+  "fecha": null,
+  "lugar": null,
+  "monto": null,
+  "numero_hablantes": 1,
+  "citas_clave": [
+   "tengo varias anedotas en los cinemas de barrio que eran los de Lima, en Breña, pero el recuerdo más lejano que tengo y el primer recuerdo es ver Superman 3 con mi papá cuando tenía tres años más o menos.",
+   "En Breña había un montón de cines, un montón de cines de bar, cada cuadro tenía un cine pequeño, eso no."
+  ]
+ },
+ "modelo_llm": "gemini-3.8-flash",
+ "fecha": "2026-10-25"
+}

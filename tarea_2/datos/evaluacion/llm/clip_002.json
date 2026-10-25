@@ -1,0 +1,20 @@
+{
+ "campos": {
+  "modalidad": "audio",
+  "tema": "Fútbol como unión de masas",
+  "resumen": "Una persona realiza una entrevista a dos ciudadanas sobre sus expectativas ante un partido de fútbol de la selección y el valor del deporte para unir a la sociedad.",
+  "emisor": null,
+  "destinatario": null,
+  "fecha": null,
+  "lugar": null,
+  "monto": null,
+  "numero_hablantes": 2,
+  "citas_clave": [
+   "voy a hacer una entrevista acerca del fútbol como unión de masas.",
+   "Que la afición se encuentra motivado para ganar este partido.",
+   "es un deporte que une a toda la familia, a todas las amistades generales."
+  ]
+ },
+ "modelo_llm": "gemini-3.8-flash",
+ "fecha": "2026-10-25"
+}

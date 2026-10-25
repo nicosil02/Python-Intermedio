@@ -1,0 +1,16 @@
+{
+ "campos": {
+  "modalidad": "documento",
+  "tema": "Evocación de la Sociedad Geográfica",
+  "resumen": "El autor rememora con nostalgia sus vivencias como secretario en la Sociedad Geográfica y sus encuentros con un venerable tradicionista. Asimismo, lamenta encontrarse lejos de su patria y prevé los cambios que hallará si regresa a Lima.",
+  "emisor": null,
+  "destinatario": null,
+  "fecha": null,
+  "lugar": null,
+  "monto": null,
+  "numero_hablantes": null,
+  "citas_clave": null
+ },
+ "modelo_llm": "gemini-3.8-flash",
+ "fecha": "2026-10-24"
+}

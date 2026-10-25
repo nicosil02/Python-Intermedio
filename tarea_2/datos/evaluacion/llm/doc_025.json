@@ -1,0 +1,16 @@
+{
+ "campos": {
+  "modalidad": "documento",
+  "tema": "Libro de bautismos de Lampa",
+  "resumen": "Registro o carátula del libro de bautismos perteneciente a la villa de Lampa durante la gestión eclesiástica local.",
+  "emisor": null,
+  "destinatario": null,
+  "fecha": "Ano, de 189s.",
+  "lugar": "Fran Villa de Lampa",
+  "monto": null,
+  "numero_hablantes": null,
+  "citas_clave": null
+ },
+ "modelo_llm": "gemini-3.8-flash",
+ "fecha": "2026-10-25"
+}

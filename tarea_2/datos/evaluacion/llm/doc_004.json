@@ -1,0 +1,16 @@
+{
+ "campos": {
+  "modalidad": "documento",
+  "tema": "Intimación de Suchet a Valencia",
+  "resumen": "La Gazeta del Gobierno de Lima reproduce un extracto de la intimación del general francés Suchet al capitán general y ayuntamiento de Valencia para exigir la rendición de la ciudad. El texto incluye comentarios críticos que rebaten las afirmaciones de Suchet sobre sus intenciones.",
+  "emisor": "el conde Suchet",
+  "destinatario": "al capitan general del eyno de Valencia, y al ayuntamiento de la capital",
+  "fecha": "6 de marzo último",
+  "lugar": "su campo del, Puig",
+  "monto": null,
+  "numero_hablantes": null,
+  "citas_clave": null
+ },
+ "modelo_llm": "gemini-3.8-flash",
+ "fecha": "2026-10-24"
+}

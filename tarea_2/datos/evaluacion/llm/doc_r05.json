@@ -1,0 +1,16 @@
+{
+ "campos": {
+  "modalidad": "documento",
+  "tema": "Fragmento de texto histórico patriótico",
+  "resumen": "Documento con texto altamente deteriorado por lectura OCR que contiene menciones dispersas a peruanas, chilenas y la patria. No es posible identificar con precisión su contenido completo ni los involucrados.",
+  "emisor": null,
+  "destinatario": null,
+  "fecha": null,
+  "lugar": null,
+  "monto": null,
+  "numero_hablantes": null,
+  "citas_clave": null
+ },
+ "modelo_llm": "gemini-3.8-flash",
+ "fecha": "2026-10-24"
+}

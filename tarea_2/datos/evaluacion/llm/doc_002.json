@@ -1,0 +1,16 @@
+{
+ "campos": {
+  "modalidad": "documento",
+  "tema": "Constitución Política de la República Peruana",
+  "resumen": "El presidente José de La-Mar presenta el texto de la Constitución Política decretada por el Congreso General Constituyente del Perú. En su primer título, define a la Nación Peruana como la asociación política de todos los ciudadanos del país.",
+  "emisor": "JOSE DE LA-MAR",
+  "destinatario": null,
+  "fecha": null,
+  "lugar": null,
+  "monto": null,
+  "numero_hablantes": null,
+  "citas_clave": null
+ },
+ "modelo_llm": "gemini-3.8-flash",
+ "fecha": "2026-10-24"
+}

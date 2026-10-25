@@ -1,0 +1,16 @@
+{
+ "campos": {
+  "modalidad": "documento",
+  "tema": "Felicitación a Ricardo Palma",
+  "resumen": "El autor felicita a Ricardo Palma por su nombramiento como director honorario de la Biblioteca Nacional decretado por el Gobierno Provisorio. Asimismo, celebra su restitución a la institución y expresa su deseo de darle pronto un abrazo a su regreso.",
+  "emisor": null,
+  "destinatario": "Ricardo Palma",
+  "fecha": "4 de julio de 1914",
+  "lugar": "Maldonado",
+  "monto": null,
+  "numero_hablantes": null,
+  "citas_clave": null
+ },
+ "modelo_llm": "gemini-3.8-flash",
+ "fecha": "2026-10-24"
+}

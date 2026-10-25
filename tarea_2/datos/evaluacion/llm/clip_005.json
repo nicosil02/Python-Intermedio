@@ -1,0 +1,20 @@
+{
+ "campos": {
+  "modalidad": "audio",
+  "tema": "Agricultura familiar y mujer rural",
+  "resumen": "Una productora campesina expone el valor de la agricultura familiar y los saberes ancestrales frente al cambio climático y la pérdida de semillas nativas. Asimismo, reivindica el rol de las mujeres del campo y solicita mayor presupuesto para promover sus emprendimientos y garantizar la seguridad alimentaria.",
+  "emisor": null,
+  "destinatario": null,
+  "fecha": null,
+  "lugar": null,
+  "monto": null,
+  "numero_hablantes": 1,
+  "citas_clave": [
+   "Y somos el 93% de productores de la pequeña agricultura que nosotros subsistimos a los mercados locales, a los mercados nacionales.",
+   "para mi es importante lo que es la promoción del fondo de la mujer rural porque si es importante no basta los 10 millones que existen",
+   "siendo mujer del campo tiene rostro de producción tiene rostro lo que es el trabajo del campo es el trabajo de las semillas"
+  ]
+ },
+ "modelo_llm": "gemini-3.8-flash",
+ "fecha": "2026-10-25"
+}

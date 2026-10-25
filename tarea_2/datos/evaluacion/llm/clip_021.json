@@ -1,0 +1,20 @@
+{
+ "campos": {
+  "modalidad": "audio",
+  "tema": "Recuerdos de cines antiguos",
+  "resumen": "El hablante relata sus experiencias juveniles asistiendo a antiguos cines de Lima con su grupo de amigos de la universidad. Recuerda en particular la conmoción del público durante la proyección de una película sobre un terremoto.",
+  "emisor": null,
+  "destinatario": null,
+  "fecha": null,
+  "lugar": null,
+  "monto": null,
+  "numero_hablantes": 1,
+  "citas_clave": [
+   "Ya no existe ese cine, el cine de San Antonio, acá pues en frente al Reducto de Miraflores, a las carbelitas, la venía a Benavides",
+   "todo el mundo comenzaba a disparar porque creían que era terremoto, pues de verdad.",
+   "Sabíamos como seis, siete personas, en collera íbamos, pues claro, de estudiantes si nunca habíamos solos"
+  ]
+ },
+ "modelo_llm": "gemini-3.8-flash",
+ "fecha": "2026-10-25"
+}

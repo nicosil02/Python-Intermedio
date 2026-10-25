@@ -1,0 +1,20 @@
+{
+ "campos": {
+  "modalidad": "audio",
+  "tema": "Entrevista sobre características del peruano",
+  "resumen": "Un grupo de estudiantes realiza una breve entrevista sobre la percepción y cualidades positivas y negativas de los peruanos. Los entrevistados destacan aspectos como el emprendimiento y el trabajo, así como problemas de desorganización.",
+  "emisor": null,
+  "destinatario": null,
+  "fecha": null,
+  "lugar": null,
+  "monto": null,
+  "numero_hablantes": 3,
+  "citas_clave": [
+   "El terreno es diversidad.",
+   "Es que es emprendedor, trabajador.",
+   "La desorganización, claro."
+  ]
+ },
+ "modelo_llm": "gemini-3.8-flash",
+ "fecha": "2026-10-25"
+}

@@ -1,0 +1,16 @@
+{
+ "campos": {
+  "modalidad": "documento",
+  "tema": "Recuerdos sobre periodismo e historia",
+  "resumen": "El autor rememora a un mentor que le brindaba orientación y lecciones de historia patria en apoyo a su labor periodística. Asimismo, menciona anécdotas sobre un defensor de las libertades y eventos vinculados a naciones limítrofes.",
+  "emisor": null,
+  "destinatario": null,
+  "fecha": null,
+  "lugar": null,
+  "monto": null,
+  "numero_hablantes": null,
+  "citas_clave": null
+ },
+ "modelo_llm": "gemini-3.8-flash",
+ "fecha": "2026-10-24"
+}

@@ -1,0 +1,19 @@
+{
+ "campos": {
+  "modalidad": "audio",
+  "tema": "Significado de la marcha por igualdad",
+  "resumen": "Un entrevistador consulta sobre el significado de una marcha ciudadana. El entrevistado explica que marchan para exigir igualdad de derechos como seres humanos e invita a la juventud a ser libre.",
+  "emisor": null,
+  "destinatario": null,
+  "fecha": null,
+  "lugar": null,
+  "monto": null,
+  "numero_hablantes": 2,
+  "citas_clave": [
+   "Es simple, es la igualdad, es la oportunidad de tener ya los derechos que nosotros tanto exigimos como cualquier pareja en el sector porque seguimos siendo seres humanos.",
+   "Lo importante es ser feliz y no hacer feliz a alguien."
+  ]
+ },
+ "modelo_llm": "gemini-3.8-flash",
+ "fecha": "2026-10-24"
+}

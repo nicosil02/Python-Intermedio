@@ -1,0 +1,16 @@
+{
+ "campos": {
+  "modalidad": "documento",
+  "tema": "Correspondencia sobre novedades y dinero",
+  "resumen": "El emisor escribe a su hermano informando sobre la situación de las tropas y el fallecimiento de varios combatientes. Además, le solicita el envío de dinero a través de un arriero.",
+  "emisor": "[PERSONA_3]",
+  "destinatario": "Desrido hirmano",
+  "fecha": "mays o de 1880",
+  "lugar": "Taiona",
+  "monto": "pasrs 100",
+  "numero_hablantes": null,
+  "citas_clave": null
+ },
+ "modelo_llm": "gemini-3.8-flash",
+ "fecha": "2026-10-24"
+}

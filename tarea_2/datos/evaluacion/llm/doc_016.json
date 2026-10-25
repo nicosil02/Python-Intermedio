@@ -1,0 +1,16 @@
+{
+ "campos": {
+  "modalidad": "documento",
+  "tema": "Pintura mural Casa Amorós",
+  "resumen": "El documento hace referencia a una pintura mural en Casa Amorós datada en el siglo XVII. Contiene una indicación de lugar y fecha asociada a Trujillo.",
+  "emisor": null,
+  "destinatario": null,
+  "fecha": "JULIO E201G",
+  "lugar": "TRU ILLO",
+  "monto": null,
+  "numero_hablantes": null,
+  "citas_clave": null
+ },
+ "modelo_llm": "gemini-3.8-flash",
+ "fecha": "2026-10-24"
+}

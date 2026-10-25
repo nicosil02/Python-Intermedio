@@ -1,0 +1,16 @@
+{
+ "campos": {
+  "modalidad": "documento",
+  "tema": "Mensaje de solidaridad y saludo",
+  "resumen": "El texto expresa adhesión a las protestas por un atentado sufrido por la víctima y transmite afectuosos saludos familiares reconociendo su labor literaria.",
+  "emisor": null,
+  "destinatario": null,
+  "fecha": null,
+  "lugar": null,
+  "monto": null,
+  "numero_hablantes": null,
+  "citas_clave": null
+ },
+ "modelo_llm": "gemini-3.8-flash",
+ "fecha": "2026-10-24"
+}

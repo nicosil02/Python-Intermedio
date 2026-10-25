@@ -1,0 +1,16 @@
+{
+ "campos": {
+  "modalidad": "documento",
+  "tema": "Presentación de la revista Amauta",
+  "resumen": "José Carlos Mariátegui expone la fundación y los objetivos de la revista Amauta como expresión de un movimiento de renovación intelectual y espiritual en el Perú. Plantea que la publicación busca abordar los problemas nacionales desde una postura doctrinaria, científica y vinculada a los movimientos del mundo.",
+  "emisor": "JOSE CARLOS MARIATEGUI.",
+  "destinatario": null,
+  "fecha": "1926",
+  "lugar": "LIMA",
+  "monto": null,
+  "numero_hablantes": null,
+  "citas_clave": null
+ },
+ "modelo_llm": "gemini-3.8-flash",
+ "fecha": "2026-10-24"
+}
