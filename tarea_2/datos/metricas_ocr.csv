@@ -1,0 +1,31 @@
+id,tipo,modelo,errores,n_ref,CER
+doc_002,impreso,PaddleOCR por defecto (base),63,417,0.1511
+doc_003,impreso,PaddleOCR por defecto (base),121,683,0.1772
+doc_004,impreso,PaddleOCR por defecto (base),55,1270,0.0433
+doc_009,foto,PaddleOCR por defecto (base),24,186,0.129
+doc_013,foto,PaddleOCR por defecto (base),178,246,0.7236
+doc_016,foto,PaddleOCR por defecto (base),4,52,0.0769
+doc_018,manuscrito,PaddleOCR por defecto (base),354,1488,0.2379
+doc_021,manuscrito,PaddleOCR por defecto (base),343,740,0.4635
+doc_025,manuscrito,PaddleOCR por defecto (base),49,229,0.214
+doc_022,manuscrito,PaddleOCR por defecto (base),775,1121,0.6913
+doc_002,impreso,PaddleOCR config. Parte 1,64,417,0.1535
+doc_003,impreso,PaddleOCR config. Parte 1,192,683,0.2811
+doc_004,impreso,PaddleOCR config. Parte 1,101,1270,0.0795
+doc_009,foto,PaddleOCR config. Parte 1,27,186,0.1452
+doc_013,foto,PaddleOCR config. Parte 1,10,246,0.0407
+doc_016,foto,PaddleOCR config. Parte 1,7,52,0.1346
+doc_018,manuscrito,PaddleOCR config. Parte 1,865,1488,0.5813
+doc_021,manuscrito,PaddleOCR config. Parte 1,355,740,0.4797
+doc_025,manuscrito,PaddleOCR config. Parte 1,72,229,0.3144
+doc_022,manuscrito,PaddleOCR config. Parte 1,679,1121,0.6057
+doc_002,impreso,Tesseract 5 (spa),91,417,0.2182
+doc_003,impreso,Tesseract 5 (spa),392,683,0.5739
+doc_004,impreso,Tesseract 5 (spa),949,1270,0.7472
+doc_009,foto,Tesseract 5 (spa),90,186,0.4839
+doc_013,foto,Tesseract 5 (spa),246,246,1.0
+doc_016,foto,Tesseract 5 (spa),52,52,1.0
+doc_018,manuscrito,Tesseract 5 (spa),1132,1488,0.7608
+doc_021,manuscrito,Tesseract 5 (spa),587,740,0.7932
+doc_025,manuscrito,Tesseract 5 (spa),141,229,0.6157
+doc_022,manuscrito,Tesseract 5 (spa),874,1121,0.7797

@@ -1,0 +1,31 @@
+id,condicion,modelo,errores,n_ref,WER,rtf,segundos
+clip_001,ruido de calle,faster-whisper small · CPU (base),63,307,0.2052,0.4231,57.6705
+clip_007,varias voces,faster-whisper small · CPU (base),56,202,0.2772,0.4673,44.9205
+clip_010,interior tranquilo,faster-whisper small · CPU (base),179,259,0.6911,0.201,19.5112
+clip_012,acento andino,faster-whisper small · CPU (base),84,242,0.3471,0.4964,40.5072
+clip_013,música y gente,faster-whisper small · CPU (base),10,75,0.1333,0.4024,15.7904
+clip_014,varias voces,faster-whisper small · CPU (base),104,248,0.4194,0.428,40.0088
+clip_015,ruido de calle,faster-whisper small · CPU (base),24,212,0.1132,0.455,40.9942
+clip_016,interior tranquilo,faster-whisper small · CPU (base),87,168,0.5179,0.2622,17.4202
+clip_018,ruido de calle,faster-whisper small · CPU (base),54,126,0.4286,0.5668,32.7674
+clip_023,testimonio grabado,faster-whisper small · CPU (base),73,341,0.2141,0.4479,70.2898
+clip_001,ruido de calle,faster-whisper large-v3-turbo · GPU,58,307,0.1889,0.037,5.0434
+clip_007,varias voces,faster-whisper large-v3-turbo · GPU,51,202,0.2525,0.0289,2.775
+clip_010,interior tranquilo,faster-whisper large-v3-turbo · GPU,174,259,0.6718,0.0149,1.4493
+clip_012,acento andino,faster-whisper large-v3-turbo · GPU,75,242,0.3099,0.0376,3.0676
+clip_013,música y gente,faster-whisper large-v3-turbo · GPU,9,75,0.12,0.0264,1.0343
+clip_014,varias voces,faster-whisper large-v3-turbo · GPU,91,248,0.3669,0.0594,5.5491
+clip_015,ruido de calle,faster-whisper large-v3-turbo · GPU,25,212,0.1179,0.0379,3.4162
+clip_016,interior tranquilo,faster-whisper large-v3-turbo · GPU,86,168,0.5119,0.0199,1.3214
+clip_018,ruido de calle,faster-whisper large-v3-turbo · GPU,40,126,0.3175,0.0353,2.0413
+clip_023,testimonio grabado,faster-whisper large-v3-turbo · GPU,60,341,0.176,0.0284,4.4557
+clip_001,ruido de calle,MMS mms-1b-all spa · GPU,152,307,0.4951,0.025,3.4104
+clip_007,varias voces,MMS mms-1b-all spa · GPU,74,202,0.3663,0.0124,1.1894
+clip_010,interior tranquilo,MMS mms-1b-all spa · GPU,166,259,0.6409,0.0123,1.1955
+clip_012,acento andino,MMS mms-1b-all spa · GPU,168,242,0.6942,0.0121,0.9887
+clip_013,música y gente,MMS mms-1b-all spa · GPU,14,75,0.1867,0.0109,0.4258
+clip_014,varias voces,MMS mms-1b-all spa · GPU,126,248,0.5081,0.0126,1.181
+clip_015,ruido de calle,MMS mms-1b-all spa · GPU,57,212,0.2689,0.0127,1.1483
+clip_016,interior tranquilo,MMS mms-1b-all spa · GPU,34,168,0.2024,0.0118,0.7849
+clip_018,ruido de calle,MMS mms-1b-all spa · GPU,102,126,0.8095,0.0118,0.6807
+clip_023,testimonio grabado,MMS mms-1b-all spa · GPU,103,341,0.3021,0.0129,2.0254
