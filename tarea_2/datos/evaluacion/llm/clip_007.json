@@ -1,0 +1,20 @@
+{
+ "campos": {
+  "modalidad": "audio",
+  "tema": "Significado y características del Perú",
+  "resumen": "Un entrevistador dialoga con el señor [PERSONA_1] sobre el significado que tiene el Perú para él y consulta su opinión acerca de los aspectos positivos y negativos del país. El entrevistado destaca el avance progresivo en el tiempo y señala a la corrupción y el mal desempeño de las autoridades como lo más negativo.",
+  "emisor": null,
+  "destinatario": null,
+  "fecha": null,
+  "lugar": null,
+  "monto": null,
+  "numero_hablantes": 2,
+  "citas_clave": [
+   "¿qué significa el Perú para usted?",
+   "Yo pienso que para cada Perú el Perú debe significar casi todo porque en la tierra donde estamos",
+   "Indudablemente las malas funciones que hacen nuestras autoridades, si lo vemos en el lado político, la corrupción, todo eso."
+  ]
+ },
+ "modelo_llm": "gemini-3.8-flash",
+ "fecha": "2026-10-25"
+}

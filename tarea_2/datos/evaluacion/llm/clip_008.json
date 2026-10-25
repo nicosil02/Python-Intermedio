@@ -1,0 +1,19 @@
+{
+ "campos": {
+  "modalidad": "audio",
+  "tema": "Percepción extranjera sobre el Perú",
+  "resumen": "Un estudiante entrevista a un extranjero sobre su visión del Perú y sus primeras impresiones de Lima. El entrevistado resalta la riqueza histórica y la amabilidad de la gente, aunque critica la lentitud del servicio en los restaurantes.",
+  "emisor": null,
+  "destinatario": null,
+  "fecha": null,
+  "lugar": null,
+  "monto": null,
+  "numero_hablantes": 2,
+  "citas_clave": [
+   "La gente es increíblemente amable.",
+   "El servicio es terriblemente lento en los restaurantes."
+  ]
+ },
+ "modelo_llm": "gemini-3.8-flash",
+ "fecha": "2026-10-25"
+}

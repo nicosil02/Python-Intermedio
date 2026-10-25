@@ -1,0 +1,20 @@
+{
+ "campos": {
+  "modalidad": "audio",
+  "tema": "Declaraciones y pronunciamiento sobre el Perú",
+  "resumen": "Una ciudadana procedente de Apurímac expresa su visión sobre el Perú, critica el accionar del Congreso y alienta a los jóvenes a continuar la lucha. Asimismo, da lectura a un pronunciamiento en defensa de los derechos de las mujeres y del Ministerio de la Mujer y Poblaciones Vulnerables.",
+  "emisor": null,
+  "destinatario": null,
+  "fecha": null,
+  "lugar": null,
+  "monto": null,
+  "numero_hablantes": 2,
+  "citas_clave": [
+   "pedimos que cierren el Congreso contra esos congresistas que no trabajan para su pueblo.",
+   "El Perú es una patria grande donde todos los peruanos acá somos parte de eso y nuestro Perú no debe ser así.",
+   "Jóvenes, la patria es de ustedes y a continuar luchando para un peúl grande, lleno de riquezas, de minería."
+  ]
+ },
+ "modelo_llm": "gemini-3.8-flash",
+ "fecha": "2026-10-24"
+}

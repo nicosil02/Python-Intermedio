@@ -1,0 +1,19 @@
+{
+ "campos": {
+  "modalidad": "audio",
+  "tema": "Diversidad sexual en el desfile",
+  "resumen": "El hablante destaca la importancia de asistir al desfile para visibilizar la diversidad sexual y comunitaria. Asimismo, busca ayudar a los jóvenes a comprender que la sexualidad va más allá de los modelos tradicionales.",
+  "emisor": null,
+  "destinatario": null,
+  "fecha": null,
+  "lugar": null,
+  "monto": null,
+  "numero_hablantes": 1,
+  "citas_clave": [
+   "Lo es muy variada la diversidad, y es muy importante que nos juntemos con el desfile y para todo el desfile",
+   "Que la sexualidad no es tan como lo que nos han dicho siempre, que solamente hay un primer mujer"
+  ]
+ },
+ "modelo_llm": "gemini-3.8-flash",
+ "fecha": "2026-10-25"
+}

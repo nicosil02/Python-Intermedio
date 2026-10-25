@@ -1,0 +1,16 @@
+{
+ "campos": {
+  "modalidad": "documento",
+  "tema": "Agradecimiento de César Vallejo",
+  "resumen": "César Vallejo escribe a José María Eguren para agradecerle conmovido por una carta de aliento en momentos difíciles. También hace referencia al envío de una publicación con algunos de sus versos.",
+  "emisor": "César Vallejo",
+  "destinatario": "José María Eguren",
+  "fecha": "2'9 de pilis 917",
+  "lugar": "Frsyillo",
+  "monto": null,
+  "numero_hablantes": null,
+  "citas_clave": null
+ },
+ "modelo_llm": "gemini-3.8-flash",
+ "fecha": "2026-10-24"
+}

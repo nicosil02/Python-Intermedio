@@ -1,0 +1,16 @@
+{
+ "campos": {
+  "modalidad": "documento",
+  "tema": "Homenaje a Fray Diego de Hojeda",
+  "resumen": "Inscripción en la que la ciudad de Liva rinde homenaje a Fray Diego de Hojeda, autor del poema épico religioso La Cristiada. Se destaca su obra como epítome de la literatura virreinal peruana.",
+  "emisor": "LA CIVDAD DE LIVA",
+  "destinatario": "FRAY DIEGO DE HOJEDAOP",
+  "fecha": "MMXXI",
+  "lugar": null,
+  "monto": null,
+  "numero_hablantes": null,
+  "citas_clave": null
+ },
+ "modelo_llm": "gemini-3.8-flash",
+ "fecha": "2026-10-24"
+}

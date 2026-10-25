@@ -1,0 +1,19 @@
+{
+ "campos": {
+  "modalidad": "audio",
+  "tema": "Significado de la marcha y visibilidad",
+  "resumen": "Una participante explica que la marcha es un espacio de expresión y libertad para visibilizar a comunidades vulneradas y exigir respeto sin vivir con miedo. Asimismo, se hace un llamado a la sociedad para aprender a respetarse mutuamente sin importar la orientación o identidad.",
+  "emisor": null,
+  "destinatario": null,
+  "fecha": null,
+  "lugar": null,
+  "monto": null,
+  "numero_hablantes": 4,
+  "citas_clave": [
+   "esta es una marcha para visibilizar comunidades que viven escubidas, vulneradas y amenazadas",
+   "Aprendámonos a respetar todos ustedes. Es importante respeto."
+  ]
+ },
+ "modelo_llm": "gemini-3.8-flash",
+ "fecha": "2026-10-24"
+}

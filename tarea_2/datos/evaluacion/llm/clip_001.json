@@ -1,0 +1,20 @@
+{
+ "campos": {
+  "modalidad": "audio",
+  "tema": "Expectativas sobre partido de fútbol",
+  "resumen": "Un estudiante universitario entrevista a una mujer para consultarle sobre sus expectativas respecto al partido de fútbol de Perú. La entrevistada expresa su deseo de que el equipo nacional gane y confía en el desempeño de los jugadores y la voluntad divina.",
+  "emisor": null,
+  "destinatario": null,
+  "fecha": null,
+  "lugar": null,
+  "monto": null,
+  "numero_hablantes": 2,
+  "citas_clave": [
+   "Bueno, esperamos que Perú ganemos, ¿no?",
+   "Espero que Padula se eche goles.",
+   "Que Perú gane. Es todo lo que Dios pienso."
+  ]
+ },
+ "modelo_llm": "gemini-3.8-flash",
+ "fecha": "2026-10-25"
+}

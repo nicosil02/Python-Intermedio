@@ -1,0 +1,16 @@
+{
+ "campos": {
+  "modalidad": "documento",
+  "tema": "Inauguración de mercados en Lima",
+  "resumen": "Se deja constancia de la inauguración de los mercados mayorista y minorista en Lima durante el mandato del presidente Manuel Prado y del alcalde Luis Gallo Porras.",
+  "emisor": null,
+  "destinatario": null,
+  "fecha": "26 JULIO DE 1945",
+  "lugar": "LIMA",
+  "monto": null,
+  "numero_hablantes": null,
+  "citas_clave": null
+ },
+ "modelo_llm": "gemini-3.8-flash",
+ "fecha": "2026-10-24"
+}

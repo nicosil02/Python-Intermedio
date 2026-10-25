@@ -1,0 +1,20 @@
+{
+ "campos": {
+  "modalidad": "audio",
+  "tema": "Asistencia a fiesta costumbrista",
+  "resumen": "Un entrevistador dialoga con un asistente que viaja todos los años para participar de la misa y los bailes de la fiesta patronal. El entrevistado explica cómo se desarrolla la concurrencia y las actividades según los mayordomos y donadores.",
+  "emisor": null,
+  "destinatario": null,
+  "fecha": null,
+  "lugar": null,
+  "monto": null,
+  "numero_hablantes": 2,
+  "citas_clave": [
+   "Como conozco, todos los años vengan",
+   "Si hay bailes, bailes customistas",
+   "Más tarde llena"
+  ]
+ },
+ "modelo_llm": "gemini-3.8-flash",
+ "fecha": "2026-10-25"
+}

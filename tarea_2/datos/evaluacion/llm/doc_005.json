@@ -1,0 +1,16 @@
+{
+ "campos": {
+  "modalidad": "documento",
+  "tema": "Recompensas a vencedores de Ayacucho",
+  "resumen": "Se establecen honores, medallas y pensiones para los combatientes del ejército vencedor en Ayacucho y se nombra a Antonio José de Sucre como Gran Mariscal. Además, se inicia el parte oficial sobre los movimientos previos a la jornada de Ayacucho.",
+  "emisor": "Simon Bolivar",
+  "destinatario": null,
+  "fecha": "27 de diciembre de 1824",
+  "lugar": "palacio Dictatorial de Lima",
+  "monto": null,
+  "numero_hablantes": null,
+  "citas_clave": null
+ },
+ "modelo_llm": "gemini-3.8-flash",
+ "fecha": "2026-10-24"
+}

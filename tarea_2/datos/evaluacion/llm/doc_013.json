@@ -1,0 +1,16 @@
+{
+ "campos": {
+  "modalidad": "documento",
+  "tema": "Homenaje por terremoto de 2001",
+  "resumen": "Homenaje de la Municipalidad Provincial de Arequipa a la solidaridad de quienes colaboraron con el pueblo arequipeño y a la memoria de las víctimas del terremoto del 23 de junio de 2001.",
+  "emisor": "MUNICIPALIDAD PROVINCIAL DE AREQUIPA",
+  "destinatario": null,
+  "fecha": "15DEAGOSTODE2001",
+  "lugar": null,
+  "monto": null,
+  "numero_hablantes": null,
+  "citas_clave": null
+ },
+ "modelo_llm": "gemini-3.8-flash",
+ "fecha": "2026-10-24"
+}

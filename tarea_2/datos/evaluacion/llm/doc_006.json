@@ -1,0 +1,16 @@
+{
+ "campos": {
+  "modalidad": "documento",
+  "tema": "Visita a la biblioteca con Palma",
+  "resumen": "El autor relata su recorrido por las instalaciones de la biblioteca guiado por Ricardo Palma, quien le muestra las salas, libros y pinturas mientras recuerda las pérdidas sufridas durante la ocupación chilena. Asimismo, comentan sobre la escasez de obras americanas y los planes editoriales de Palma para publicar sus tradiciones.",
+  "emisor": null,
+  "destinatario": null,
+  "fecha": null,
+  "lugar": null,
+  "monto": "dos reales",
+  "numero_hablantes": null,
+  "citas_clave": null
+ },
+ "modelo_llm": "gemini-3.8-flash",
+ "fecha": "2026-10-24"
+}

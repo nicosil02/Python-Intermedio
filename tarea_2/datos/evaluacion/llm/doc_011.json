@@ -1,0 +1,16 @@
+{
+ "campos": {
+  "modalidad": "documento",
+  "tema": "Homenaje a Federico Elguera",
+  "resumen": "El municipio rinde homenaje de gratitud a la memoria de Federico Elguera por su labor y por emprender la modernización de la ciudad durante su gestión como alcalde.",
+  "emisor": "EL-MVNICPOD-LUMA",
+  "destinatario": "FEDERIO ELGVERA",
+  "fecha": "ENERO-D-1935.",
+  "lugar": null,
+  "monto": null,
+  "numero_hablantes": null,
+  "citas_clave": null
+ },
+ "modelo_llm": "gemini-3.8-flash",
+ "fecha": "2026-10-24"
+}

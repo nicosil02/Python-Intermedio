@@ -1,0 +1,20 @@
+{
+ "campos": {
+  "modalidad": "audio",
+  "tema": "Significado de la marcha",
+  "resumen": "Una persona realiza preguntas sobre el significado de la marcha y los mensajes dirigidos a la juventud del país. Las respuestas destacan la lucha por los derechos, la libertad de amar y la importancia de no tener miedo al juicio de los demás.",
+  "emisor": null,
+  "destinatario": null,
+  "fecha": null,
+  "lugar": null,
+  "monto": null,
+  "numero_hablantes": 1,
+  "citas_clave": [
+   "¿qué significa esta marcha para ti?",
+   "para mí significa luchar por mis derechos",
+   "la vida es muy corta para estar en un armario"
+  ]
+ },
+ "modelo_llm": "gemini-3.8-flash",
+ "fecha": "2026-10-24"
+}

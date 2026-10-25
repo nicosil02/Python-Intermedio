@@ -1,0 +1,19 @@
+{
+ "campos": {
+  "modalidad": "audio",
+  "tema": "Recuerdos sobre el cine",
+  "resumen": "El hablante relata sus memorias de infancia y juventud viendo películas en VHS piratas y acudiendo a salas de cine como el Cine Pacífico o la Ventana Indiscreta en la universidad. Explica cómo estas vivencias forjaron su gusto y obsesión por ver películas en pantalla grande.",
+  "emisor": null,
+  "destinatario": null,
+  "fecha": null,
+  "lugar": null,
+  "monto": null,
+  "numero_hablantes": 1,
+  "citas_clave": [
+   "Yo no recuerdo con precisión la primera vez que fui al cine.",
+   "Es mi momento que sí recuerdo que empecé a amar ir a ver películas en pantalla grande, como una obsesión"
+  ]
+ },
+ "modelo_llm": "gemini-3.8-flash",
+ "fecha": "2026-10-25"
+}

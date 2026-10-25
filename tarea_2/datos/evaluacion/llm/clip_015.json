@@ -1,0 +1,19 @@
+{
+ "campos": {
+  "modalidad": "audio",
+  "tema": "Significado de la marcha",
+  "resumen": "Un entrevistador consulta a dos personas sobre el valor de la marcha y el mensaje para la juventud peruana. Los participantes afirman que la marcha busca visibilizar y exigir derechos, destacando la importancia de la tolerancia, la inclusión y la educación.",
+  "emisor": null,
+  "destinatario": null,
+  "fecha": null,
+  "lugar": null,
+  "monto": null,
+  "numero_hablantes": 3,
+  "citas_clave": [
+   "Significa visibilizarnos, en términos sencillos significa decirle a la sociedad con el pensamiento actual o con la posición actual que tiene, decir que existimos, estamos acá, no nos vamos a seguir escondiendo, también significa que exigimos nuestros derechos",
+   "necesitamos un poquito más de tolerancia, de aceptación e inclusión"
+  ]
+ },
+ "modelo_llm": "gemini-3.8-flash",
+ "fecha": "2026-10-25"
+}

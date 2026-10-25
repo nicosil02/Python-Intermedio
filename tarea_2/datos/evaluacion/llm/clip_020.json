@@ -1,0 +1,19 @@
+{
+ "campos": {
+  "modalidad": "audio",
+  "tema": "Recuerdos de antiguos cines limeños",
+  "resumen": "La hablante rememora diversas salas de cine desaparecidas de Lima y el Callao, destacando sus visitas infantiles al Cine Monarca y al Cine Porteño. En estos lugares vio repetidas veces películas emblemáticas como Star Wars y E.T., experiencias que forjaron su afición por el cine.",
+  "emisor": null,
+  "destinatario": null,
+  "fecha": null,
+  "lugar": null,
+  "monto": null,
+  "numero_hablantes": 1,
+  "citas_clave": [
+   "Yo he ido a muchas salas de las que ya no existen y que ahora son otras cosas, ¿no?",
+   "La fui a ver 25 veces con mi mamá durante un verano al Cine Monarca."
+  ]
+ },
+ "modelo_llm": "gemini-3.8-flash",
+ "fecha": "2026-10-25"
+}

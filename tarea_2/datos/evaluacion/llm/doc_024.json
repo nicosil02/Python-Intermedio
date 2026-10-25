@@ -1,0 +1,16 @@
+{
+ "campos": {
+  "modalidad": "documento",
+  "tema": "Registro de partidas de entierro",
+  "resumen": "Contiene anotaciones eclesiásticas sobre la administración de la doctrina y el entierro del párvulo [PERSONA_3] en la villa de Santiago de Lomga durante el año 1832.",
+  "emisor": null,
+  "destinatario": null,
+  "fecha": "1832.anos",
+  "lugar": "Santingo d Lomga",
+  "monto": null,
+  "numero_hablantes": null,
+  "citas_clave": null
+ },
+ "modelo_llm": "gemini-3.8-flash",
+ "fecha": "2026-10-25"
+}

@@ -1,0 +1,20 @@
+{
+ "campos": {
+  "modalidad": "audio",
+  "tema": "Entrevista sobre una marcha",
+  "resumen": "[PERSONA_1] entrevista al señor [PERSONA_2] sobre qué mensaje le daría a la juventud del país en el marco de la marcha. [PERSONA_2] recomienda a los jóvenes seguir sus sueños con responsabilidad y describe la marcha como colorida y comercial.",
+  "emisor": null,
+  "destinatario": null,
+  "fecha": null,
+  "lugar": null,
+  "monto": null,
+  "numero_hablantes": 2,
+  "citas_clave": [
+   "Que sigan sus sueños, que sigan sus, que hagan lo que le gusta, con responsabilidad y que luchen por eso, no?",
+   "Que, colorida.",
+   "Vende cosas, es como el día de la mujer, el día del niño, no?"
+  ]
+ },
+ "modelo_llm": "gemini-3.8-flash",
+ "fecha": "2026-10-25"
+}

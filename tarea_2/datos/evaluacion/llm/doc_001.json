@@ -1,0 +1,16 @@
+{
+ "campos": {
+  "modalidad": "documento",
+  "tema": "Religión y estado político peruano",
+  "resumen": "El documento establece la religión católica como la oficial de la República con exclusión de otras y precisa los deberes de la Nación respecto a ella. Además, define quiénes son peruanos y determina que nadie nace esclavo en el país, aboliendo el comercio de personas negras.",
+  "emisor": null,
+  "destinatario": null,
+  "fecha": null,
+  "lugar": null,
+  "monto": null,
+  "numero_hablantes": null,
+  "citas_clave": null
+ },
+ "modelo_llm": "gemini-3.8-flash",
+ "fecha": "2026-10-24"
+}

@@ -1,0 +1,19 @@
+{
+ "campos": {
+  "modalidad": "audio",
+  "tema": "Reflexiones sobre el Perú",
+  "resumen": "Un estudiante entrevista a un ciudadano sobre el significado del Perú, sus aspectos positivos y negativos, y el rol de la juventud en el desarrollo del país a través de la producción.",
+  "emisor": null,
+  "destinatario": null,
+  "fecha": null,
+  "lugar": null,
+  "monto": null,
+  "numero_hablantes": 2,
+  "citas_clave": [
+   "El Perú es mi patria, es una patria donde aún nací mis ancestros.",
+   "Entonces, la juventud de hoy debe pensar en lo que es la producción."
+  ]
+ },
+ "modelo_llm": "gemini-3.8-flash",
+ "fecha": "2026-10-25"
+}

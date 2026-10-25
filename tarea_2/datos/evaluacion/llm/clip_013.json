@@ -1,0 +1,20 @@
+{
+ "campos": {
+  "modalidad": "audio",
+  "tema": "Fiesta de Santo Patrón Taitapalli",
+  "resumen": "Una persona explica la importancia de la fiesta del Santo Patrón de Chuyas Taitapalli para ella, su familia y los chuyacinos. Relata que mantiene esta tradición heredada de sus padres debido a los múltiples milagros que le ha concedido.",
+  "emisor": null,
+  "destinatario": null,
+  "fecha": null,
+  "lugar": null,
+  "monto": null,
+  "numero_hablantes": 1,
+  "citas_clave": [
+   "la fiesta de Santo Patrón de Chuyas Taitapalli es muy importante para mí y para mi familia.",
+   "Entonces, a mí me ha hecho muchos milagros.",
+   "Todos los chuyacinos, no solo yo, mi familia, todos creemos a nuestro santo patrón."
+  ]
+ },
+ "modelo_llm": "gemini-3.8-flash",
+ "fecha": "2026-10-24"
+}

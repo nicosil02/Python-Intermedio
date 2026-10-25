@@ -1,0 +1,19 @@
+{
+ "campos": {
+  "modalidad": "audio",
+  "tema": "Entrevista sobre el Perú",
+  "resumen": "Un estudiante de la Universidad San Marcos entrevista al señor [PERSONA_2] sobre los aspectos positivos y negativos del Perú. Durante la conversación, el entrevistado comparte su visión sobre el trabajo y brinda recomendaciones a los jóvenes sobre el estudio y el manejo del dinero.",
+  "emisor": null,
+  "destinatario": null,
+  "fecha": null,
+  "lugar": null,
+  "monto": null,
+  "numero_hablantes": 2,
+  "citas_clave": [
+   "El Perú es un país con mucha historia.",
+   "Punto número uno, no preste dinero. Punto número dos, no seas aval de nadie. Y punto número tres, ahorra tu dinero."
+  ]
+ },
+ "modelo_llm": "gemini-3.8-flash",
+ "fecha": "2026-10-24"
+}

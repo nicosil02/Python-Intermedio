@@ -1,0 +1,16 @@
+{
+ "campos": {
+  "modalidad": "documento",
+  "tema": "Sanción de la Constitución",
+  "resumen": "El presidente provisorio de la República promulga la Constitución sancionada por la Convención Nacional. El texto establece las disposiciones iniciales sobre la asociación política y la soberanía de la Nación peruana.",
+  "emisor": "EL LIBERTADOR BANON GASTILLA",
+  "destinatario": null,
+  "fecha": null,
+  "lugar": null,
+  "monto": null,
+  "numero_hablantes": null,
+  "citas_clave": null
+ },
+ "modelo_llm": "gemini-3.8-flash",
+ "fecha": "2026-10-24"
+}
