@@ -2,7 +2,7 @@
 
 **Pregunta:** ¿se pueden convertir documentos escaneados y entrevistas en audio en un archivo de texto estructurado y buscable?
 
-**Dashboard público:** _(enlace de Streamlit Community Cloud)_
+**Dashboard público:** https://voces-documentos-peruanos.streamlit.app
 
 ## Qué se hizo
 
