@@ -1,0 +1,21 @@
+id,tema,resumen,emisor,destinatario,fecha,lugar,monto,numero_hablantes,citas_clave,errores
+doc_001,1,1,1,1,1,1,1,1,1,
+doc_r05,1,1,1,1,1,1,1,1,1,"Sin errores del LLM, pero sí del OCR."
+doc_004,1,1,1,1,0,0,1,1,1,El lugar era líma y no había fecha del escrito
+doc_013,1,1,1,1,1,1,1,1,1,
+doc_014,1,1,1,1,1,1,1,1,1,
+doc_008,1,1,1,1,1,1,1,1,1,
+doc_002,1,1,1,1,1,1,1,1,1,
+doc_010,1,1,1,1,1,1,1,1,1,
+doc_009,0,1,1,1,1,1,1,1,1,"El homenaje también es para su esposa, Maria Laos de Miro Quesada"
+doc_016,1,1,1,1,1,1,1,1,1,
+clip_013,0,1,1,1,1,1,1,1,1,Falto decir Chuyas en el tema
+clip_021,1,1,1,1,1,1,1,0,1,Son dos hablantes: una persona realiza preguntas y otra responde; el LLM indicó 1.
+clip_004,1,1,1,1,1,1,1,1,1,
+clip_003,1,1,1,1,1,1,1,1,1,
+clip_022,1,1,1,1,1,1,1,1,1,
+clip_016,1,1,1,1,1,1,1,1,1,
+clip_017,1,1,1,1,1,1,1,0,1,Hay una persona que realiza preguntas y otra que contesta. O sea dos hablantes.
+clip_014,1,1,1,1,1,1,1,0,1,Son solo dos hablantes.
+clip_023,1,1,1,1,1,1,1,1,1,
+clip_006,1,1,1,1,1,1,1,1,1,
