@@ -1,4 +1,4 @@
-"""Herramientas de la sesión 13: de audio a texto, solo con modelos abiertos y locales.
+"""Herramientas para pasar de audio a texto, solo con modelos abiertos y locales.
 
 Copiado de d2cml-ai/Data-Science-Python (sessions/13-audio-a-texto/voz.py). Único cambio para la
 Tarea 2: se agrega faster-whisper "small", la línea base que pide el enunciado.

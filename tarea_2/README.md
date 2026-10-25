@@ -1,16 +1,16 @@
 # Tarea 2 · Voces y documentos peruanos
 
-**Pregunta:** ¿se pueden convertir documentos escaneados y entrevistas en audio en un archivo de texto estructurado y buscable?
+La pregunta del trabajo es si se pueden convertir documentos escaneados y entrevistas en audio en un archivo de texto estructurado y buscable.
 
-**Dashboard público:** https://voces-documentos-peruanos.streamlit.app
+El dashboard público está en https://voces-documentos-peruanos.streamlit.app
 
 ## Qué se hizo
 
 1. **Corpus y extracción** (`01_extraccion.ipynb`). 25 documentos peruanos (8 impresos, 8 fotos de celular y 9 manuscritos) leídos con PaddleOCR, y 22 clips de entrevistas en español peruano (60 minutos) transcritos con faster-whisper `small` y separados por hablante. Los nombres de personas privadas se reemplazan por seudónimos (`[PERSONA_1]`, `[HABLANTE_1]`).
 2. **Evaluación** (`02_evaluacion.ipynb`). Sobre 10 documentos y 10 clips transcritos a mano se mide el CER y la WER de 3 modelos de OCR y 3 de ASR. Un LLM (Gemini, con esquema JSON fijo) extrae tema, resumen, emisor, fecha, lugar, hablantes y citas de los 47 textos, y 20 extracciones sorteadas se revisan a mano.
-3. **Dashboard** (`app.py`). Indicadores, gráficos, búsqueda en todos los textos y exploradores de documentos y audios. Solo lee los CSV y JSON que dejan los notebooks: no carga ningún modelo.
+3. **Dashboard** (`app.py`). Indicadores, gráficos, búsqueda en todos los textos y exploradores de documentos y audios. Solo lee los CSV y JSON que dejan los notebooks y no carga ningún modelo.
 
-**Resultados (línea base):** `WER: 0.34 | CER: 0.31 | Acuerdo LLM-Humano: 14/20`
+Resultados de la línea base `WER: 0.34 | CER: 0.31 | Acuerdo LLM-Humano: 14/20`
 
 ## Corpus, fuentes y licencias
 
@@ -39,7 +39,7 @@ La evaluación usa además solo 10 documentos y 10 clips transcritos por una sol
 
 ## Cómo ejecutarlo en local
 
-Desde la raíz del repositorio, con Python 3.12:
+Desde la raíz del repositorio, con Python 3.12.
 
 ```bash
 cd tarea_2
@@ -49,7 +49,7 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-La app se abre en `http://localhost:8501`. `requirements.txt` solo tiene lo que usa el dashboard (Streamlit, pandas y Plotly). Los notebooks usan además PaddleOCR, faster-whisper, jiwer y google-genai, con las versiones que aparecen en sus primeras celdas. Los modelos alternativos se corrieron en Google Colab (`modelos_colab.ipynb`).
+La app se abre en `http://localhost:8501`. `requirements.txt` solo tiene lo que usa el dashboard (Streamlit, pandas y Plotly). Los notebooks usan además PaddleOCR, faster-whisper, jiwer y google-genai, con las versiones que aparecen en sus primeras celdas. Lo que no cabía en la laptop (7,7 GB de RAM, sin GPU) se corrió en Google Colab. `ocr_colab.ipynb` hizo el OCR de 24 documentos con la misma configuración que el notebook 01, y `modelos_colab.ipynb` corrió los modelos que se comparan en el notebook 02. Sus resultados están en `datos/` y los notebooks 01 y 02 los leen.
 
 ## Estructura
 
@@ -57,6 +57,7 @@ La app se abre en `http://localhost:8501`. `requirements.txt` solo tiene lo que 
 tarea_2/
 ├── 01_extraccion.ipynb      # OCR, transcripción, seudonimización y EDA
 ├── 02_evaluacion.ipynb      # CER/WER, extracción con LLM, auditoría y decisión
+├── ocr_colab.ipynb          # OCR del corpus en Colab (GPU)
 ├── modelos_colab.ipynb      # modelos alternativos en Colab (GPU)
 ├── app.py                   # dashboard Streamlit
 ├── requirements.txt         # dependencias del dashboard
