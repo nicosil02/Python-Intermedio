@@ -51,6 +51,19 @@ def gasto(anio, carpeta):
                         "-o", str(csv), BASE + nombre])
     if csv.stat().st_size != total:
         raise RuntimeError(f"{nombre}: {csv.stat().st_size} de {total} bytes")
+    # Algunos archivos del MEF (2016) traen una comilla sin cerrar que rompe la lectura.
+    # Una linea valida tiene un numero par de comillas: las impares se descartan.
+    limpio = csv.with_suffix(".limpio.csv")
+    malas = 0
+    with open(csv, "rb") as ent, open(limpio, "wb") as sal:
+        for linea in ent:
+            if linea.count(b'"') % 2:
+                malas += 1
+            else:
+                sal.write(linea)
+    print(f"{anio}: {malas} lineas con comillas mal cerradas descartadas", flush=True)
+    csv.unlink()
+    csv = limpio
     partes, obras = [], []
     lector = pd.read_csv(csv, dtype=str, chunksize=500_000, encoding="utf-8-sig")
     for i, ch in enumerate(lector):
