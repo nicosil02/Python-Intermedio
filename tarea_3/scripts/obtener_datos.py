@@ -46,6 +46,11 @@ def gasto(anio, carpeta):
     lector = pd.read_csv(csv, dtype=str, chunksize=500_000, encoding="utf-8-sig")
     for i, ch in enumerate(lector):
         ch = ch[ch["NIVEL_GOBIERNO"] == "M"].copy()
+        # Hasta ~2011 el codigo de proyecto se llama ACTIVIDAD_PROYECTO y no hay GENERICA.
+        ch = ch.rename(columns={"ACTIVIDAD_PROYECTO": "PRODUCTO_PROYECTO"})
+        for c in CLAVES:
+            if c not in ch and c != "UBIGEO":
+                ch[c] = ""
         ch["UBIGEO"] = (ch["DEPARTAMENTO_EJECUTORA"] + ch["PROVINCIA_EJECUTORA"]
                         + ch["DISTRITO_EJECUTORA"])
         # Codigo de inversion solo en filas de proyectos (en actividades queda vacio).
