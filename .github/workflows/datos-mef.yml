@@ -1,0 +1,24 @@
+name: datos-mef
+on:
+  push:
+    branches: [datos-mef]
+  workflow_dispatch:
+jobs:
+  gasto:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    strategy:
+      fail-fast: false
+      matrix:
+        anio: [2018, 2019, 2021, 2022, 2023, 2024, 2025, 2026]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pandas pyarrow
+      - run: python tarea_3/scripts/obtener_datos.py gasto ${{ matrix.anio }}
+      - uses: actions/upload-artifact@v4
+        with:
+          name: gasto-${{ matrix.anio }}
+          path: tarea_3/datos/procesados/gasto_municipal_${{ matrix.anio }}.parquet
