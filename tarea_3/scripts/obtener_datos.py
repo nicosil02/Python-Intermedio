@@ -39,9 +39,18 @@ def gasto(anio, carpeta):
     # "Devengado-Diario" con una columna por mes.
     nombre = f"{anio}-Gasto.csv" if anio < 2025 else f"{anio}-Gasto-Devengado-Diario.csv"
     csv = Path(carpeta) / nombre
-    # El servidor corta las conexiones largas: curl reintenta y retoma (-C -) donde quedo.
-    subprocess.run(["curl", "-sS", "-L", "--retry", "50", "--retry-all-errors", "-C", "-",
-                    "-o", str(csv), BASE + nombre], check=True)
+    # El servidor corta las conexiones largas y a veces curl da por terminado un archivo
+    # incompleto: se retoma (-C -) hasta que el tamano coincide con el del servidor.
+    cab = subprocess.run(["curl", "-sSI", BASE + nombre], capture_output=True, text=True).stdout
+    total = int(next(l.split(":")[1] for l in cab.splitlines()
+                     if l.lower().startswith("content-length")))
+    for _ in range(100):
+        if csv.exists() and csv.stat().st_size >= total:
+            break
+        subprocess.run(["curl", "-sS", "-L", "--retry", "20", "--retry-all-errors", "-C", "-",
+                        "-o", str(csv), BASE + nombre])
+    if csv.stat().st_size != total:
+        raise RuntimeError(f"{nombre}: {csv.stat().st_size} de {total} bytes")
     partes, obras = [], []
     lector = pd.read_csv(csv, dtype=str, chunksize=500_000, encoding="utf-8-sig")
     for i, ch in enumerate(lector):
