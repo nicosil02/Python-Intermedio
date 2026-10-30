@@ -42,20 +42,24 @@ def gasto(anio, carpeta):
     # El servidor corta las conexiones largas: curl reintenta y retoma (-C -) donde quedo.
     subprocess.run(["curl", "-sS", "-L", "--retry", "50", "--retry-all-errors", "-C", "-",
                     "-o", str(csv), BASE + nombre], check=True)
-    partes = []
+    partes, obras = [], []
     lector = pd.read_csv(csv, dtype=str, chunksize=500_000, encoding="utf-8-sig")
     for i, ch in enumerate(lector):
         ch = ch[ch["NIVEL_GOBIERNO"] == "M"].copy()
         ch["UBIGEO"] = (ch["DEPARTAMENTO_EJECUTORA"] + ch["PROVINCIA_EJECUTORA"]
                         + ch["DISTRITO_EJECUTORA"])
+        # Codigo de inversion solo en filas de proyectos (en actividades queda vacio).
+        ch["PROYECTO"] = ch["PRODUCTO_PROYECTO"].where(
+            ch["TIPO_ACT_PROY"].isin(["2", "PROYECTO"]), "")
+        ids = CLAVES + ["PROYECTO"]
         if "MES_EJE" in ch:
             ch["MES"] = ch["MES_EJE"].astype(int)
             ch["DEVENGADO"] = ch["MONTO_DEVENGADO"].astype(float)
             ch["PIM"] = ch["MONTO_PIM"].astype(float)
-            largo = ch[CLAVES + ["MES", "DEVENGADO", "PIM"]]
+            largo = ch[ids + ["MES", "DEVENGADO", "PIM"]]
         else:
             cols = {f"MONTO_DEVENGADO_{m}": i + 1 for i, m in enumerate(MESES)}
-            largo = ch.melt(id_vars=CLAVES + ["MONTO_PIM"], value_vars=list(cols),
+            largo = ch.melt(id_vars=ids + ["MONTO_PIM"], value_vars=list(cols),
                             var_name="MES", value_name="DEVENGADO")
             largo["MES"] = largo["MES"].map(cols)
             largo["DEVENGADO"] = largo["DEVENGADO"].astype(float)
@@ -63,11 +67,18 @@ def gasto(anio, carpeta):
             largo["PIM"] = largo["MONTO_PIM"].astype(float).where(largo["MES"] == 1, 0.0)
             largo = largo.drop(columns="MONTO_PIM")
         partes.append(largo.groupby(CLAVES + ["MES"], as_index=False)[["DEVENGADO", "PIM"]].sum())
+        # Pago mensual por obra: avance de ejecucion de cada proyecto.
+        obras.append(largo[largo["PROYECTO"] != ""].groupby(
+            ["ANO_EJE", "SEC_EJEC", "UBIGEO", "PROYECTO", "MES"], as_index=False)["DEVENGADO"].sum())
         print(f"{anio}: bloque {i + 1}", flush=True)
-    df = pd.concat(partes).groupby(CLAVES + ["MES"], as_index=False)[["DEVENGADO", "PIM"]].sum()
     PROC.mkdir(parents=True, exist_ok=True)
+    df = pd.concat(partes).groupby(CLAVES + ["MES"], as_index=False)[["DEVENGADO", "PIM"]].sum()
     df.to_parquet(PROC / f"gasto_municipal_{anio}.parquet", index=False)
-    print(f"{anio}: listo, {len(df):,} filas ({date.today()})")
+    ob = pd.concat(obras).groupby(["ANO_EJE", "SEC_EJEC", "UBIGEO", "PROYECTO", "MES"],
+                                  as_index=False)["DEVENGADO"].sum()
+    ob = ob[ob["DEVENGADO"] != 0]
+    ob.to_parquet(PROC / f"pagos_obra_{anio}.parquet", index=False)
+    print(f"{anio}: listo, {len(df):,} filas; {ob['PROYECTO'].nunique():,} obras ({date.today()})")
 
 
 if __name__ == "__main__":
